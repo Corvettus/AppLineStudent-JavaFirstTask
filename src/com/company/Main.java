@@ -12,7 +12,17 @@ public class Main {
         candyBox.addCandy(new Snickers());
         candyBox.addCandy(new Twix());
         System.out.println(candyBox);
-        System.out.println(candyBox.getWeight());
-        System.out.println(candyBox.getPrice());
+
+        candyBox.deleteCandy();
+        System.out.println(candyBox);
+
+        candyBox.fitGiftByWeight(1794);
+        System.out.println(candyBox);
+
+        candyBox.fitGiftByPrice(1749);
+        System.out.println(candyBox);
+
+        candyBox.fitGiftByWeight(1500);
+        System.out.println(candyBox);
     }
 }

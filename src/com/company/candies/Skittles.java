@@ -4,9 +4,9 @@ import com.company.abstracts.Candy;
 
 public class Skittles extends Candy {
     public Skittles() {
-        String name = "Skittles";
-        int weight = 62;
-        int price = 1;
-        String description = "taste of the rainbow";
+        name = "Skittles";
+        weight = 62;
+        price = 1;
+        description = "taste of the rainbow";
     }
 }
